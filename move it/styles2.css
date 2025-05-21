@@ -1,0 +1,110 @@
+/* أنماط الصفحات الداخلية */
+.content-page {
+    padding: 120px 0 60px;
+}
+
+/* أنماط صفحة النصائح */
+.tip-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tip-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* أنماط صفحة التمارين */
+.exercise-category {
+    margin-bottom: 40px;
+}
+
+.exercise {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.exercise img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* أنماط صفحة الأخبار */
+.news-card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.news-card img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.news-date {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+/* أنماط صفحة التحديات */
+.challenge-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.challenge-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.reward {
+    background: var(--primary-color);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.progress-bar {
+    height: 20px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.progress-bar span {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: white;
+}
